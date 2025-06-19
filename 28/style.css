@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-color: mediumblue;
+}
+#link{
+    width: 100%;
+    background-color: royalblue;
+    padding: 10px;
+    position: fixed; top: 0%;
+}
+#link ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+#link li+ li{
+    border-left: 1px solid #ffffff;
+}
+#link a:hover{
+ background-color: cornflowerblue;
+ color: cyan;
+}
+#link a{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.profile{
+    width: 30%;
+    padding: 20px;
+    margin-top: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+.profile h1{
+    font-style: oblique;
+}
+.side2div{
+    width: 40%;
+    padding: 20px;
+    margin: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: mediumseagreen;
+}
+.side3div{
+    width: 50%;
+    padding: 20px;
+    margin: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gold;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 80px;
+}
+.food{
+    width: 30%;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.food img{
+    width: 80%;
+}
+.animal{
+    width: 30%;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;   
+}
+.animal img{
+    width: 80%;
+}
+.side5div{
+    width: 50%;
+    padding: 20px;
+    margin: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}

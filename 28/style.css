@@ -41,28 +41,27 @@ body{
 .profile h1{
     font-style: oblique;
 }
-.side2div{
+.side{
     width: 40%;
     padding: 20px;
-    margin: 60px;
+    margin-top: 60px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     background-color: greenyellow;
 }
-.side3div{
+.side2{
     width: 40%;
     padding: 20px;
-    margin: 60px;
+    margin-top: 60px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     background-color: #fcc700;
 }
-.content{
+.side3{
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
     margin-top: 80px;
 }
 .food{
@@ -73,9 +72,6 @@ body{
     padding: 20px;
     box-sizing: border-box;
     border-radius: 5px;
-}
-.food img{
-    width: 80%;
 }
 .animal{
     width: 30%;
@@ -89,10 +85,10 @@ body{
 .animal img{
     border-radius: 50%;
 }
-.side5div{
+.side4{
     width: 40%;
     padding: 20px;
-    margin: 60px;
+    margin-top: 60px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;

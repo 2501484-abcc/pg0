@@ -48,16 +48,16 @@ body{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: mediumseagreen;
+    background-color: greenyellow;
 }
 .side3div{
-    width: 50%;
+    width: 40%;
     padding: 20px;
     margin: 60px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: gold;
+    background-color: #fcc700;
 }
 .content{
     display: flex;
@@ -87,14 +87,14 @@ body{
     border-radius: 5px;   
 }
 .animal img{
-    width: 80%;
+    border-radius: 50%;
 }
 .side5div{
-    width: 50%;
+    width: 40%;
     padding: 20px;
     margin: 60px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ffffff;
+    background-color: lightgray;
 }
